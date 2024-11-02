@@ -1,0 +1,9 @@
+services:
+  web:
+    image: httpd:2.4
+    ports:
+      - "8080:80"
+networks:
+  netweb01:
+volumes:
+  volweb01:
